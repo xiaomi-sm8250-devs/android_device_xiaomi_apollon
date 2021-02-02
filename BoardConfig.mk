@@ -15,6 +15,10 @@ TARGET_SCREEN_DENSITY := 440
 # Fingerprint
 SOONG_CONFIG_XIAOMI_KONA_BIOMETRICS_HAL_CLASSES = fpc
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_apollo
+TARGET_RECOVERY_DEVICE_MODULES := libinit_apollo
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
