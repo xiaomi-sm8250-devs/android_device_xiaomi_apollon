@@ -17,6 +17,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Device parts
+PRODUCT_PACKAGES += \
+    DeviceParts
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from xiaomi sm8250-common
