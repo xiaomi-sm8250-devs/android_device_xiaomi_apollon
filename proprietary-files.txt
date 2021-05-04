@@ -557,11 +557,12 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
 
 # Sensors
+vendor/etc/sensors/hals.conf
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libultrasound.so
-vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
+vendor/lib64/sensors.mius.proximity.so
 
 # Sensors configs
 vendor/etc/sensors/sns_reg_config
